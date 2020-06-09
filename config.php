@@ -64,4 +64,4 @@ $GLOBALS['CONFIG']['DOWNLOAD'] = [
 	'MAX_CONFERENCE_AGE' => 14 /* Tage */,
 ];
 
-$GLOBALS['CONFIG']['CDN'] = "cdn.3voc.de";
+$GLOBALS['CONFIG']['CDN'] = "stream.asta.uni-goettingen.de";
