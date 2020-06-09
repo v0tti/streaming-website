@@ -36,7 +36,7 @@ if(@$_SERVER['SERVER_NAME'] == 'localhost')
 else
 {
 	// Set a safe Default
-	$GLOBALS['CONFIG']['BASEURL'] = '//streaming.media.ccc.de/';
+	$GLOBALS['CONFIG']['BASEURL'] = '//stream.asta.uni-goettingen.de/';
 }
 
 
@@ -63,3 +63,5 @@ $GLOBALS['CONFIG']['DOWNLOAD'] = [
 	 */
 	'MAX_CONFERENCE_AGE' => 14 /* Tage */,
 ];
+
+$GLOBALS['CONFIG']['CDN'] = "cdn.3voc.de";
