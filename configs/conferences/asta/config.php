@@ -102,7 +102,7 @@ Eine sichtbare Gemeinschaft wird es nur dank des heimlichen Helden des Chaos: De
 	 * Wird beides aktiviert, hat der externe Link Vorrang!
 	 * Wird beides auskommentiert, wird der Link nicht angezeigt
 	 */
-	'RELIVE_JSON' => 'https://stream.asta.uni-goettingen.de/relive/divoc/index.json',
+	'RELIVE_JSON' => 'https://cdn.c3voc.de/relive/divoc/index.json',
 
 	/**
 	 * APCU-Cache-Zeit in Sekunden
@@ -151,7 +151,7 @@ $CONFIG['ROOMS'] = array(
 		 * Event-Case in welchem Raum aufgebaut wird und wird üblicherweise von
 		 * s1 bis s5 durchnummeriert.
 		 */
-		'STREAM' => 'q2',
+		'STREAM' => 'q1',
 
 		/**
 		 * Stream-Vorschaubildchen auf der Übersichtsseite anzeigen
